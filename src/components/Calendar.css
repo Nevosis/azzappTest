@@ -1,0 +1,29 @@
+.Calendar-container {
+  width: 600px;
+  height: 720px;
+  background-color: lightgrey;
+  padding: 0 10px;
+}
+
+.Calendar-event {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: white;
+  border: 1px solid grey;
+  position: absolute;
+  border-left-color: rgb(142, 142, 223);
+  border-left-width: 4px;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.Calendar-event-title {
+  color: rgb(107, 107, 220);
+  margin-bottom: 2px;
+}
+
+.Calendar-event-description {
+  font-size: small;
+  color: gray;
+}
